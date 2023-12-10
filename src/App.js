@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import Card from "./components/Card";
+import SearchBar from "./components/SearchBar";
+import SearchBarWithFilter from "./components/SearchBarWithFilter";
+import Subheader from "./components/Subheader";
+import Headder from "./components/Headder";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function App(){
+    return(
+        <>
+        <div>
+            <Headder/>
+            <Subheader/>
+            <SearchBar/>
+        </div>
+        <div className="cources">
+        <Card imglink="https://via.placeholder.com/150" courseName="Joy of Computing using Python" courseCat="Programming" courseTime="6-12 Hours"/>
+        <Card imglink="https://via.placeholder.com/150" courseName="Mathemeatics" courseCat="Programming" courseTime="6-12 Hours"/>
+        <Card imglink="https://via.placeholder.com/150" courseName="Cyber Physical Systems" courseCat="Programming" courseTime="6-12 Hours"/>
+        <Card imglink="https://via.placeholder.com/150" courseName="Physics" courseCat="Programming" courseTime="6-12 Hours"/>
+        <Card imglink="https://via.placeholder.com/150" courseName="Physics" courseCat="Programming" courseTime="6-12 Hours"/>
+        <Card imglink="https://via.placeholder.com/150" courseName="Physics" courseCat="Programming" courseTime="6-12 Hours"/>
+        </div>
+        </>
+    );
 }
 
 export default App;
