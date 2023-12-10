@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Cobalt-Dashboard/static/css/main.ee0d18f4.css",
+    "main.js": "/Cobalt-Dashboard/static/js/main.6cbd7b53.js",
+    "static/js/787.701a0ebf.chunk.js": "/Cobalt-Dashboard/static/js/787.701a0ebf.chunk.js",
+    "static/media/profile.jpg": "/Cobalt-Dashboard/static/media/profile.736e3f94cee640f86a9a.jpg",
+    "static/media/time.svg": "/Cobalt-Dashboard/static/media/time.fda57f31ba26f3732fa5252eec7bbe8c.svg",
+    "static/media/cat.svg": "/Cobalt-Dashboard/static/media/cat.22ccf2d05d469f0cc1562e38b0344cd1.svg",
+    "index.html": "/Cobalt-Dashboard/index.html",
+    "static/media/filter.svg": "/Cobalt-Dashboard/static/media/filter.b972dc90964505e1a1a079645e5c9dbf.svg",
+    "static/media/ellipse.svg": "/Cobalt-Dashboard/static/media/ellipse.7d41b8971b19c81437818be44787dee8.svg",
+    "main.ee0d18f4.css.map": "/Cobalt-Dashboard/static/css/main.ee0d18f4.css.map",
+    "main.6cbd7b53.js.map": "/Cobalt-Dashboard/static/js/main.6cbd7b53.js.map",
+    "787.701a0ebf.chunk.js.map": "/Cobalt-Dashboard/static/js/787.701a0ebf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee0d18f4.css",
+    "static/js/main.6cbd7b53.js"
+  ]
+}
